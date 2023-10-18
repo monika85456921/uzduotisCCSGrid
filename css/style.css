@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: 100px repeat(7, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+  gap: 5px 5px;
+}
+/* fonts */
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.blue {
+  color: #68bce3;
+}
+.green{
+    color:#71d990;
+}
+.pink{
+    color: #f799e6;
+}
+.yellow{
+    color: #f2f074;
+}
+/* Stages */
+div{
+    border: solid 1px #ffff;
+    border-radius: 20px 20px 20px 20px;
+}
+.empty-box {
+  background-color: #e0ddd5;
+  grid-area: 1/1/2/2;
+  
+}
+.stage-1 {
+  background-color: #e0ddd5;
+  grid-area: 1/2/2/3;
+}
+.stage-2 {
+  background-color: #e0ddd5;
+  grid-area: 1/3/2/4;
+}
+.stage-3 {
+  background-color: #e0ddd5;
+  grid-area: 1/4/2/5;
+}
+.stage-4 {
+  background-color: #e0ddd5;
+  grid-area: 1/5/2/6;
+}
+.stage-5 {
+  background-color: #e0ddd5;
+  grid-area: 1/6/2/7;
+}
+.stage-6 {
+  background-color: #e0ddd5;
+  grid-area: 1/7/2/8;
+}
+.stage-7 {
+  background-color: #e0ddd5;
+  grid-area: 1/8/2/9;
+}
+/* times */
+.ten {
+  background-color: #e0ddd5;
+  grid-area: 2/1/3/2;
+}
+.ten-thirty {
+  background-color: #e0ddd5;
+  grid-area: 3/1/4/2;
+}
+.eleven {
+  background-color: #e0ddd5;
+  grid-area: 4/1/5/2;
+}
+.eleven-thirty {
+  background-color: #e0ddd5;
+  grid-area: 5/1/6/2;
+}
+.twelve {
+  background-color: #e0ddd5;
+  grid-area: 6/1/7/2;
+}
+.twelve-thirty {
+  background-color: #e0ddd5;
+  grid-area: 7/1/8/2;
+}
+.one {
+  background-color: #e0ddd5;
+  grid-area: 8/1/9/2;
+}
+.one-thirty {
+  background-color: #e0ddd5;
+  grid-area: 9/1/10/2;
+}
+.two {
+  background-color: #e0ddd5;
+  grid-area: 10/1/11/2;
+}
+.two-thirty {
+  background-color: #e0ddd5;
+  grid-area: 11/1/12/2;
+}
+/* talks&breaks */
+.talk-1 {
+  background-color: #c9e5f2;
+  grid-area: 2/2/5/4;
+}
+.break-11 {
+  background-color: #e0ddd5;
+  grid-area: 5/2/6/4;
+}
+.talk-23 {
+  background-color: #c9e5f2;
+  grid-area: 6/2/8/5;
+}
+.talk-4 {
+  background-color: #b2e6b1;
+  grid-area: 2/4/6/5;
+}
+.talk-5 {
+  background-color: #f7e4f7;
+  grid-area: 2/5/3/7;
+}
+.break-10 {
+  background-color: #e0ddd5;
+  grid-area: 3/5/4/7;
+}
+.talk-6 {
+  background-color: #f7e4f7;
+  grid-area: 4/5/8/7;
+}
+.talk-9 {
+  background-color: #edf0c0;
+  grid-area: 2/7/8/9;
+}
+.break-1 {
+  background-color: #e0ddd5;
+  grid-area: 8/2/9/9;
+}
+.talk-7 {
+  background-color: #c9e5f2;
+  grid-area: 9/2/12/4;
+}
+.talk-8 {
+  background-color: #b2e6b1;
+  grid-area: 10/4/12/7;
+}
+.talk-10 {
+  background-color: #edf0c0;
+  grid-area: 9/7/12/9;
+}
+.empty {
+  grid-area: 9/4/10/7;
+}
